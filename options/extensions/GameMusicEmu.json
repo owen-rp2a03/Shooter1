@@ -1,0 +1,9 @@
+{
+  "extensionId": {
+    "name": "GameMusicEmu",
+    "path": "extensions/GameMusicEmu/GameMusicEmu.yy"
+  },
+  "resourceVersion": "1.0",
+  "resourceType": "GMExtensionConfigSet",
+  "configurables": null
+}
