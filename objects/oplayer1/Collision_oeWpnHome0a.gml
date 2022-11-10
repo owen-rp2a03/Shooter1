@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 61B4BC4A
-/// @DnDArgument : "var" "invul"
-if(invul == 0)
+/// @DnDArgument : "var" "global.invul"
+if(global.invul == 0)
 {
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -31,7 +31,7 @@ if(invul == 0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 799B2408
 		/// @DnDParent : 33037F6E
-		/// @DnDArgument : "steps" "90"
-		alarm_set(0, 90);
+		/// @DnDArgument : "steps" "45"
+		alarm_set(0, 45);
 	}
 }

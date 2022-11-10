@@ -95,8 +95,8 @@ draw_text(16, 8*5, string("plrSpeed ") + string(oPlayer1.plrSpeed));
 /// @DnDArgument : "x" "16"
 /// @DnDArgument : "y" "8*6"
 /// @DnDArgument : "caption" ""plrInvul ""
-/// @DnDArgument : "var" "oPlayer1.invul"
-draw_text(16, 8*6, string("plrInvul ") + string(oPlayer1.invul));
+/// @DnDArgument : "var" "global.invul"
+draw_text(16, 8*6, string("plrInvul ") + string(global.invul));
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1

@@ -24,6 +24,16 @@ oDevInfo.visible = ini_read_real("debug", "show_info", 0);
 /// @DnDArgument : "default" "1"
 win_scale = ini_read_real("setting", "win_scale", 1);
 
+/// @DnDAction : YoYo Games.Files.Ini_Read
+/// @DnDVersion : 1
+/// @DnDHash : 32452CE3
+/// @DnDArgument : "var" "global.invul"
+/// @DnDArgument : "type" "1"
+/// @DnDArgument : "section" ""setting""
+/// @DnDArgument : "key" ""invul""
+/// @DnDArgument : "default" "0"
+global.invul = ini_read_real("setting", "invul", 0);
+
 /// @DnDAction : YoYo Games.Files.Close_Ini
 /// @DnDVersion : 1
 /// @DnDHash : 425FCE67
