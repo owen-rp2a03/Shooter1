@@ -49,25 +49,53 @@ if(!(__dnd_health <= 0))
 /// @DnDArgument : "op" "3"
 if(__dnd_health <= 0)
 {
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 5D434F34
+	/// @DnDComment : create xy for item spawn
+	/// @DnDParent : 1A262D65
+	/// @DnDArgument : "expr" "x"
+	/// @DnDArgument : "var" "global.emyKillx"
+	global.emyKillx = x;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 399C7261
+	/// @DnDParent : 1A262D65
+	/// @DnDArgument : "expr" "y"
+	/// @DnDArgument : "var" "global.emyKilly"
+	global.emyKilly = y;
+
 	/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 	/// @DnDVersion : 1
-	/// @DnDHash : 005127E0
+	/// @DnDHash : 6B462CA2
+	/// @DnDComment : begin explosion anim and destory at end
 	/// @DnDParent : 1A262D65
 	image_speed = 1;
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 18318A1D
+	/// @DnDHash : 12E9413C
 	/// @DnDParent : 1A262D65
 	/// @DnDArgument : "var" "image_index"
 	/// @DnDArgument : "op" "2"
-	/// @DnDArgument : "value" "4"
-	if(image_index > 4)
+	/// @DnDArgument : "value" "6"
+	if(image_index > 6)
 	{
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 4290F9AF
+		/// @DnDComment : only incrament kill var once :)
+		/// @DnDParent : 12E9413C
+		/// @DnDArgument : "expr" "1"
+		/// @DnDArgument : "expr_relative" "1"
+		/// @DnDArgument : "var" "global.emyKill"
+		global.emyKill += 1;
+	
 		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 		/// @DnDVersion : 1
-		/// @DnDHash : 28A37355
-		/// @DnDParent : 18318A1D
+		/// @DnDHash : 23F39CBF
+		/// @DnDParent : 12E9413C
 		instance_destroy();
 	}
 }

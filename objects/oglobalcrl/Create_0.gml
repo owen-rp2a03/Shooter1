@@ -89,3 +89,21 @@ if(win_scale == 2)
 /// @DnDArgument : "expr" "1"
 /// @DnDArgument : "var" "global.shotVis"
 global.shotVis = 1;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4A8EB819
+/// @DnDArgument : "var" "global.emyKill"
+global.emyKill = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 276C9558
+/// @DnDArgument : "var" "global.emyKillx"
+global.emyKillx = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 38976747
+/// @DnDArgument : "var" "global.emyKilly"
+global.emyKilly = 0;
