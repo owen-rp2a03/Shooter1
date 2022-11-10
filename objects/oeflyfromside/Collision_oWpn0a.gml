@@ -19,8 +19,7 @@ if(!(__dnd_health <= 0))
 	/// @DnDHash : 7E646039
 	/// @DnDParent : 1C049CFF
 	/// @DnDArgument : "steps" "1"
-	/// @DnDArgument : "alarm" "1"
-	alarm_set(1, 1);
+	alarm_set(0, 1);
 
 	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 	/// @DnDVersion : 1

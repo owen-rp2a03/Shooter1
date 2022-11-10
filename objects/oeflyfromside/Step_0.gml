@@ -63,3 +63,11 @@ if(y > room_height+32)
 	/// @DnDParent : 77151960
 	instance_destroy();
 }
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 29890A6A
+/// @DnDArgument : "expr" ".02"
+/// @DnDArgument : "expr_relative" "1"
+/// @DnDArgument : "var" "speed"
+speed += .02;
