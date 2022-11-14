@@ -8,7 +8,8 @@ image_speed = 0;
 /// @DnDVersion : 1
 /// @DnDHash : 087B11BB
 /// @DnDArgument : "var" "side"
-if(side == 0)
+/// @DnDArgument : "value" "1"
+if(side == 1)
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
 	/// @DnDVersion : 1

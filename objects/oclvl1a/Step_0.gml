@@ -24,16 +24,16 @@ if(rstep == 8)
 {
 	rstep += 1;			//9
 
-	alarm_set(1, 220);	//10
-	spawny = -16;
-	alarm_set(2, 10);	//11
-	alarm_set(3, 20);	//12
+	spny = -16; spnside = 0;
+	alarm_set(2, 150);	//10
 }
-if(rstep == 12)
+if(rstep == 10)
 {
-	rstep += 1;			//13
+	rstep += 1;			//11
 	
-	//alarm_set(
+	alarm_set(1, 100);	//12
+	spny = -16; spnside = 1;
+	alarm_set(2, 40);	//13
 }
 
 /* next-step ifvar base
