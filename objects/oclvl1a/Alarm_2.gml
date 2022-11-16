@@ -1,7 +1,8 @@
 
 
-var FlyFromSide = instance_create_layer(0, spny, "spr", oeFlyFromSide);
+inst = instance_create_layer(24, spny, "spr", oeFlyFromSide);
 
-FlyFromSide.side = 1;
+inst.side = spnside;
+
 
 rstep += 1;
