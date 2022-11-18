@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oItmW0",
   "spriteId": {
     "name": "sItmW0",
     "path": "sprites/sItmW0/sItmW0.yy",
@@ -22,16 +25,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayer1","path":"objects/oPlayer1/oPlayer1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayer1","path":"objects/oPlayer1/oPlayer1.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":true,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"spd","varType":0,"value":"-5","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
+  ],
   "overriddenProperties": [],
   "parent": {
     "name": "item",
     "path": "folders/Objects/item.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oItmW0",
-  "tags": [],
-  "resourceType": "GMObject",
 }
