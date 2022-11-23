@@ -32,6 +32,16 @@ if(oDevInfo.visible == 1)
 	/// @DnDArgument : "x" "8"
 	/// @DnDArgument : "y" "room_height-48"
 	/// @DnDArgument : "caption" """"
-	/// @DnDArgument : "var" "spd"
-	draw_text(8, room_height-48, string("") + string(spd));
+	/// @DnDArgument : "var" "spd2"
+	draw_text(8, room_height-48, string("") + string(spd2));
+
+	/// @DnDAction : YoYo Games.Drawing.Draw_Value
+	/// @DnDVersion : 1
+	/// @DnDHash : 3FFE044C
+	/// @DnDParent : 4A24414A
+	/// @DnDArgument : "x" "64"
+	/// @DnDArgument : "y" "room_height-48"
+	/// @DnDArgument : "caption" """"
+	/// @DnDArgument : "var" "spddir2"
+	draw_text(64, room_height-48, string("") + string(spddir2));
 }

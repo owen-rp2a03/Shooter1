@@ -140,6 +140,14 @@ if(__dnd_health <= 0)
 		/// @DnDArgument : "var" "global.emyKill"
 		global.emyKill += 1;
 	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 74DEE186
+		/// @DnDParent : 5705E778
+		/// @DnDArgument : "expr" "int64(global.emyKill)"
+		/// @DnDArgument : "var" "global.emyKill"
+		global.emyKill = int64(global.emyKill);
+	
 		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 		/// @DnDVersion : 1
 		/// @DnDHash : 3B01EE5B

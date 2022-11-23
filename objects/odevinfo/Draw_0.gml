@@ -118,16 +118,6 @@ draw_text(8, 7*8, string("plrShot ") + string(string(instance_number(oWpn0))+str
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
-/// @DnDHash : 2CED0B76
-/// @DnDDisabled : 1
-/// @DnDArgument : "x" "8"
-/// @DnDArgument : "y" "7*10"
-/// @DnDArgument : "caption" ""roomStep ""
-/// @DnDArgument : "var" "ocLvl1a.rstep"
-
-
-/// @DnDAction : YoYo Games.Drawing.Draw_Value
-/// @DnDVersion : 1
 /// @DnDHash : 13ED938C
 /// @DnDArgument : "x" "8"
 /// @DnDArgument : "y" "7*11"

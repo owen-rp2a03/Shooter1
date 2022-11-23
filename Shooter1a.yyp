@@ -22,7 +22,6 @@
     {"id":{"name":"bgCity0","path":"sprites/bgCity0/bgCity0.yy",},"order":0,},
     {"id":{"name":"sfSmall","path":"sprites/sfSmall/sfSmall.yy",},"order":1,},
     {"id":{"name":"seTurret0b","path":"sprites/seTurret0b/seTurret0b.yy",},"order":2,},
-    {"id":{"name":"ocGroups","path":"objects/ocGroups/ocGroups.yy",},"order":2,},
     {"id":{"name":"sEnemy1","path":"sprites/sEnemy1/sEnemy1.yy",},"order":0,},
     {"id":{"name":"oEnemy1","path":"objects/oEnemy1/oEnemy1.yy",},"order":0,},
     {"id":{"name":"font_small","path":"fonts/font_small/font_small.yy",},"order":0,},
@@ -52,8 +51,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rTest","path":"rooms/rTest/rTest.yy",},},
     {"roomId":{"name":"rStg1","path":"rooms/rStg1/rStg1.yy",},},
+    {"roomId":{"name":"rTest","path":"rooms/rTest/rTest.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":10,},

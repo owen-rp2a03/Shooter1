@@ -1,4 +1,4 @@
-/// @description proceedings of stage with rstep
+/// @description proceedings of stage with rstep + item handling
 
 if(rstep == 0){
 	rstep += 1;			//1
@@ -39,3 +39,28 @@ if(rstep == )
 	alarm_set(
 }
 */
+
+
+
+////ITEM HANDLE////
+
+if(global.emyKill == 3){
+	global.emyKill += .1;
+	instance_create_layer(global.emyKillx,global.emyKilly,"spr",oItmW0)
+}
+
+if(global.emyKill == 10){
+	global.emyKill += .1;
+	instance_create_layer(global.emyKillx,global.emyKilly,"spr",oItmW0)
+}
+
+
+
+/* item step base
+if(global.emyKill == ){
+	instance_create_layer(global.emyKillx,global.emyKilly,"spr",)
+}
+*/
+
+
+
