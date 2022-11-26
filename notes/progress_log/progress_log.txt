@@ -1,0 +1,27 @@
+first shooter progress log
+i should of done this sooner
+hopefully it ill help keep track and remind myself
+----------
+
+
+
+-----
+nov 25 26	start of writing notes
+
+fixed reworked player collisions with bullets
+made frame and second counter in debug info
+made sprite for shield item
+added more enemies to the room steps
+
+need to make enemy collisions with player
+new enemies shoot in circular pattern with bool variable that defines direction cw/ccw
+			move down from top move back and forth shoot big laser
+			basic enemy shoot in X, big collumn of them?
+make sprites for them
+make shield function and make sprite that overlays on player and spawn first one between first and second basic shot item
+
+need to be more enemy patterns that arent simply home to player and shoot
+
+-----------
+
+inital work on game began in mid september 2022

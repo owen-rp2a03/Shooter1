@@ -16,12 +16,12 @@ y += lengthdir_y(spd,direction);
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 670161EB
-/// @DnDArgument : "code" "/// @description delete offscreen$(13_10)$(13_10)if	(x < -32) || $(13_10)	(x > room_width+32) || $(13_10)	(y < -32) || $(13_10)	(y > room_height+32){$(13_10)	instance_destroy();$(13_10)}"
+/// @DnDArgument : "code" "/// @description delete offscreen$(13_10)$(13_10)if	(x < -8) || $(13_10)	(x > room_width+8) || $(13_10)	(y < -8) || $(13_10)	(y > room_height+8){$(13_10)	instance_destroy();$(13_10)}"
 /// @description delete offscreen
 
-if	(x < -32) || 
-	(x > room_width+32) || 
-	(y < -32) || 
-	(y > room_height+32){
+if	(x < -8) || 
+	(x > room_width+8) || 
+	(y < -8) || 
+	(y > room_height+8){
 	instance_destroy();
 }

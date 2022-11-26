@@ -58,3 +58,18 @@ else
 		spd2 += spd2*spddir2;
 	}
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3948A740
+/// @DnDArgument : "var" "y"
+/// @DnDArgument : "op" "2"
+/// @DnDArgument : "value" "room_height+16"
+if(y > room_height+16)
+{
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 76E998A1
+	/// @DnDParent : 3948A740
+	instance_destroy();
+}

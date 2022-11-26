@@ -131,23 +131,10 @@ if (y > room_height-8){
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 72294715
-/// @DnDArgument : "code" "$(13_10)$(13_10)if(global.invul == 0) && (visible == 1) &&$(13_10)  (place_meeting(x,y,oEnemy1)) || $(13_10)  (place_meeting(x,y,oeTurret0a)) || $(13_10)  (place_meeting(x,y,oeFlyFromSide)) ||$(13_10)  $(13_10)  (place_meeting(x,y,oeWpn0)) ||$(13_10)  (place_meeting(x,y,oeWpnHome0)) ||$(13_10)  (place_meeting(x,y,oeWpnHome0a)) $(13_10){$(13_10)	if(visible == 1)$(13_10)	{$(13_10)		visible = 0;$(13_10)		weapon = -1;$(13_10)	$(13_10)		alarm_set(0, 45);$(13_10)	}$(13_10)}"
+/// @DnDArgument : "code" "$(13_10)$(13_10)if(visible == 0)$(13_10){$(13_10)	weapon = -1;$(13_10)}"
 
 
-if(global.invul == 0) && (visible == 1) &&
-  (place_meeting(x,y,oEnemy1)) || 
-  (place_meeting(x,y,oeTurret0a)) || 
-  (place_meeting(x,y,oeFlyFromSide)) ||
-  
-  (place_meeting(x,y,oeWpn0)) ||
-  (place_meeting(x,y,oeWpnHome0)) ||
-  (place_meeting(x,y,oeWpnHome0a)) 
+if(visible == 0)
 {
-	if(visible == 1)
-	{
-		visible = 0;
-		weapon = -1;
-	
-		alarm_set(0, 45);
-	}
+	weapon = -1;
 }

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "rStg1",
+  "name": "rLvl1",
   "isDnd": false,
   "volume": 1.0,
   "parentRoom": null,
@@ -17,7 +17,6 @@
   ],
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"hud","instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1D2D4155","properties":[],"isDnd":false,"objectId":{"name":"oGlobalCrl","path":"objects/oGlobalCrl/oGlobalCrl.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-16.0,"y":0.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_26F87276","properties":[],"isDnd":false,"objectId":{"name":"oDevInfo","path":"objects/oDevInfo/oDevInfo.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-16.0,"y":-16.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"spr","instances":[
@@ -30,10 +29,9 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_5CFF0541","path":"rooms/rStg1/rStg1.yy",},
-    {"name":"inst_1D2D4155","path":"rooms/rStg1/rStg1.yy",},
-    {"name":"inst_26F87276","path":"rooms/rStg1/rStg1.yy",},
-    {"name":"inst_46E0E840","path":"rooms/rStg1/rStg1.yy",},
+    {"name":"inst_5CFF0541","path":"rooms/rLvl1/rLvl1.yy",},
+    {"name":"inst_26F87276","path":"rooms/rLvl1/rLvl1.yy",},
+    {"name":"inst_46E0E840","path":"rooms/rLvl1/rLvl1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
