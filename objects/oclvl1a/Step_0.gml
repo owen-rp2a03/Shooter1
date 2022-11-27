@@ -1,67 +1,56 @@
 /// @description room step and item destrib.
 
-if(rstep == 0){
-	rstep += 1;			//1
+if(rstep == 0){ rstep += 1;		//1
 	
 	alarm_set(0, 60);	//2
 }
-if(rstep == 2){
-	rstep += 1;			//3
-
+if(rstep == 2){ rstep += 1;		//3
+	
 	alarm_set(0, 120);	//4
 	alarm_set(1, 100);	//5
 }
-if(rstep == 5){
-	rstep += 1;			//6
+if(rstep == 5){ rstep += 1;		//6
 
 	alarm_set(0, 100);	//7
 	alarm_set(1, 160);	//8
 }
-if(rstep == 8){
-	rstep += 1;			//9
+if(rstep == 8){ rstep += 1;		//9
 
 	spny = -16; spnside = 0;
 	alarm_set(2, 150);	//10
 }
-if(rstep == 10){
-	rstep += 1;			//11
+if(rstep == 10){ rstep += 1;	//11
 	
 	alarm_set(1, 100);	//12
 	spny = -16; spnside = 1;
 	alarm_set(2, 40);	//13
 }
-if(rstep == 13){
-	rstep += 1;			//14
+if(rstep == 13){ rstep += 1;	//14
 	
 	spny = -16; spnside = 0;
 	alarm_set(2, 60);	//15
 }
-if(rstep == 15){
-	rstep += 1;			//16
+if(rstep == 15){ rstep += 1;	//16
 	
 	spny = -16; spnside = 1;
 	alarm_set(2, 20);	//17
 }
-if(rstep == 17){
-	rstep += 1;			//18
+if(rstep == 17){ rstep += 1;	//18
 	
 	spny = -16; spnside = 0;
 	alarm_set(2, 20);	//19
 }
-if(rstep == 19){
-	rstep += 1;			//20
+if(rstep == 19){rstep += 1;		//20
 	
 	spny = -16; spnside = 1;
 	alarm_set(2, 20);	//21
 }
-if(rstep == 21){
-	rstep += 1;			//
+if(rstep == 21){ rstep += 1;	//
 	
 	spny = -16; spnside = 0;
 	alarm_set(2, 20);	//
 }
-if(rstep == 23){
-	rstep += 1;			//
+if(rstep == 23){ rstep += 1;	//
 	
 	spny = -16; spnside = 1;
 	alarm_set(2, 20);	//
@@ -69,9 +58,7 @@ if(rstep == 23){
 
 
 /* next-step ifvar base
-if(rstep == )
-{
-	rstep += 1;			//
+if(rstep == ){ rstep += 1;	//
 	
 	alarm_set(
 }

@@ -34,6 +34,7 @@
     {"id":{"name":"sWpn1a","path":"sprites/sWpn1a/sWpn1a.yy",},"order":1,},
     {"id":{"name":"otTurret","path":"objects/otTurret/otTurret.yy",},"order":0,},
     {"id":{"name":"font_large","path":"fonts/font_large/font_large.yy",},"order":2,},
+    {"id":{"name":"oGlobalCrl","path":"objects/oGlobalCrl/oGlobalCrl.yy",},"order":2,},
     {"id":{"name":"sShield","path":"sprites/sShield/sShield.yy",},"order":3,},
     {"id":{"name":"oeWpnHome0a","path":"objects/oeWpnHome0a/oeWpnHome0a.yy",},"order":0,},
     {"id":{"name":"sPlayer1a","path":"sprites/sPlayer1a/sPlayer1a.yy",},"order":0,},

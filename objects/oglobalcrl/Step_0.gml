@@ -83,16 +83,3 @@ if(win_scale == 2)
 {
 
 }
-
-/// @DnDAction : YoYo Games.Gamepad.Get_Gamepad_Axis_Value
-/// @DnDVersion : 1.1
-/// @DnDHash : 0E0FF696
-/// @DnDArgument : "var" "global.axislh"
-global.axislh = gamepad_is_connected(0) ? gamepad_axis_value(0, gp_axislh) : 0;
-
-/// @DnDAction : YoYo Games.Gamepad.Get_Gamepad_Axis_Value
-/// @DnDVersion : 1.1
-/// @DnDHash : 43A2C3E6
-/// @DnDArgument : "var" "global.axislv"
-/// @DnDArgument : "axis" "gp_axislv"
-global.axislv = gamepad_is_connected(0) ? gamepad_axis_value(0, gp_axislv) : 0;

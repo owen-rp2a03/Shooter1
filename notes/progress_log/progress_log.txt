@@ -3,10 +3,16 @@ i should of done this sooner
 hopefully it ill help keep track and remind myself
 ----------
 
+nov 26  	
+
+fixed deleted global controller object from being sleepy yesterday
+
 
 
 -----
 nov 25 26	start of writing notes
+
+[[[MAJOR FUCK UP FIX ocGlobal BEFORE DOING ANYTHING]]]
 
 fixed reworked player collisions with bullets
 made frame and second counter in debug info
