@@ -22,13 +22,14 @@ if(rstep == 8){ rstep += 1;		//9
 if(rstep == 10){ rstep += 1;	//11
 	
 	alarm_set(1, 100);	//12
+	
 	spny = -16; spnside = 1;
 	alarm_set(2, 40);	//13
 }
 if(rstep == 13){ rstep += 1;	//14
 	
 	spny = -16; spnside = 0;
-	alarm_set(2, 60);	//15
+	alarm_set(2, 160);	//15
 }
 if(rstep == 15){ rstep += 1;	//16
 	
@@ -45,15 +46,15 @@ if(rstep == 19){rstep += 1;		//20
 	spny = -16; spnside = 1;
 	alarm_set(2, 20);	//21
 }
-if(rstep == 21){ rstep += 1;	//
+if(rstep == 21){ rstep += 1;	//22
 	
 	spny = -16; spnside = 0;
 	alarm_set(2, 20);	//
 }
-if(rstep == 23){ rstep += 1;	//
+if(rstep == 23){ rstep += 1;	//24
 	
 	spny = -16; spnside = 1;
-	alarm_set(2, 20);	//
+	alarm_set(2, 20);	//25
 }
 
 
